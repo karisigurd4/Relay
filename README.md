@@ -9,6 +9,7 @@ Well I wanted to solve that, **RELAY** is an entire **multiplayer infrastructure
 ## Key Features
 
 - **Easy to use**: Abstracts the technical and messy networking details away so you'll be building your game in Unity and not dealing with external tools! Includes Unity prefabs that can be dropped in for smooth integration.
+- **Generalized Game Server hosting**: Relay includes a generalized game server host which allows you to develop your game entirely in Unity without worrying about the messy networking details.
 - **Matchmaking**: Supports highly configurable modern "Fall guys" style matchmaking as well as the good old conventional server browser UI.
 - **Player services**: Let your players save their character customizations, earn points, generate statistics, send friend requests and jump into matches together.
 
