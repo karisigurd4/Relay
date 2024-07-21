@@ -1,0 +1,20 @@
+{
+    "name": "Relay.PlayerManager",
+    "rootNamespace": "",
+    "references": [
+        "GUID:889f14dbae808174bb3bff5a759f4f39",
+        "GUID:b657f2b9566e5234bbf5885d5af9d2ef",
+        "GUID:002a19c2026120b4bac5201a7a220505",
+        "GUID:eedef4ef553d94441877c14211cea4ff",
+        "GUID:384bfa9dc48642044827cbf0cfb3c3dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

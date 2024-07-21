@@ -1,0 +1,17 @@
+{
+    "name": "Relay.Contracts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eedef4ef553d94441877c14211cea4ff",
+        "GUID:bb361888006b75342af656cdcc1d921f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

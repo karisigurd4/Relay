@@ -1,0 +1,16 @@
+{
+    "name": "Relay.Messagebus",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e1c2d5dc28d518145aa333c905c0b4cb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

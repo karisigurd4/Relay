@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Relay.GameServer.App": {
+      "commandName": "Project",
+      "commandLineArgs": "11002 1 Waiting c2b9f549-e11e-48e8-8fa9-4f9ce6e8207a"
+    }
+  }
+}

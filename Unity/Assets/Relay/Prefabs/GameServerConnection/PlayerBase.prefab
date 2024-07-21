@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &626439046865967528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7405842276506269142}
+  - component: {fileID: 1027078769828220229}
+  m_Layer: 0
+  m_Name: PlayerBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7405842276506269142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626439046865967528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.608257, y: 8.440329, z: 64.25658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1027078769828220229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626439046865967528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e0ad33efc53ca46ab1b5e00ad7bfb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsDirty: 1
+  NetworkInstanceId: 30006
+  IsLocal: 1
+  OwnerClientId: 0
+  OwnerPlayerId: 0
+  RelayInstanceId: 2046094526
+  InstantiatePerClient: 1
+  DestroyOnClientDisconnect: 1
+  MarkDestroy: 0
+  Initialized: 1
+  StateReplicationPriority: 0
+  FieldConfigurations: []
+  OnInitializeLocalTrue:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInitializeLocalFalse:
+    m_PersistentCalls:
+      m_Calls: []

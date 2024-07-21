@@ -1,0 +1,10 @@
+﻿[
+  {
+    "ServiceName": "relay-gameservices",
+    "Environment": "dev",
+    "DbConnectionString": "Data Source=KARIPC\\SQLEXPRESS;Initial Catalog=Relay;Integrated Security=True;",
+    "GameServerExecutablePath": "C:\\GitHub\\UnholyGrail\\GameServer\\Relay.GameServer\\Relay.GameServer.App\\bin\\Debug\\net5.0\\",
+    "GameServerExecutableName": "Relay.GameServer.App.exe",
+    "IPAddress": "127.0.0.1"
+  }
+]

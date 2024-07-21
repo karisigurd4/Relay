@@ -1,0 +1,8 @@
+﻿{
+  "ApiHostname": "http://127.0.0.1:5000/api/",
+  "DbConnectionString": "Data Source=KARIPC\\SQLEXPRESS;Initial Catalog=Relay;Integrated Security=True;",
+  "GameServerExecutablePath": "I:\\Development\\GitHub\\UnholyGrail\\GameServer\\Relay.GameServer\\Relay.GameServer.App\\bin\\Debug\\net5.0\\",
+  "GameServerExecutableName": "Relay.GameServer.App.exe",
+  "GameStateUpdateChunkCount": 128,
+  "ClientRpcUpdateChunkCount": 64
+}

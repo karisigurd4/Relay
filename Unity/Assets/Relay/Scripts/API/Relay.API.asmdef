@@ -1,0 +1,16 @@
+{
+    "name": "Relay.API",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eedef4ef553d94441877c14211cea4ff"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

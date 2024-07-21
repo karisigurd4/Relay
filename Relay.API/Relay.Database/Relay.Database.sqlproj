@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Relay.Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{98b26eff-b9cf-476b-8eac-be9926c941fb}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Relay.Database</RootNamespace>
+    <AssemblyName>Relay.Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Views" />
+    <Folder Include="Schemas" />
+    <Folder Include="StoredProcedures" />
+    <Folder Include="InitData" />
+    <Folder Include="Indexes" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tables\Player.sql" />
+    <None Include="Views\PlayerView.sql" />
+    <None Include="Tables\PlayerData.sql" />
+    <None Include="Tables\GameServer.sql" />
+    <None Include="Tables\Party.sql" />
+    <None Include="Tables\PartyPlayers.sql" />
+    <None Include="Tables\PlayerActivity.sql" />
+    <None Include="Tables\NotificationMessage.sql" />
+    <None Include="Tables\GameServerPlayers.sql" />
+    <None Include="Tables\PlayerFriend.sql" />
+    <None Include="Schemas\Relay.sql" />
+    <None Include="StoredProcedures\RegisterPlayer.sql" />
+    <None Include="StoredProcedures\SearchPlayers.sql" />
+    <None Include="StoredProcedures\FindGameServer.sql" />
+    <None Include="StoredProcedures\AddNotificationMessage.sql" />
+    <None Include="StoredProcedures\GetNotificationMessages.sql" />
+    <None Include="StoredProcedures\AddPlayerFriend.sql" />
+    <None Include="StoredProcedures\GetPlayer.sql" />
+    <None Include="StoredProcedures\CreateParty.sql" />
+    <None Include="StoredProcedures\AddPartyPlayer.sql" />
+    <None Include="Views\PartyView.sql" />
+    <None Include="StoredProcedures\UpdatePlayer.sql" />
+    <None Include="StoredProcedures\AddGameServer.sql" />
+    <None Include="StoredProcedures\AddGameServerPlayer.sql" />
+    <None Include="StoredProcedures\RemoveGameServerPlayer.sql" />
+    <None Include="StoredProcedures\GetUnreadNotificationMessagesCount.sql" />
+    <None Include="Views\PlayerActiveView.sql" />
+    <None Include="StoredProcedures\RemovePartyPlayer.sql" />
+    <None Include="StoredProcedures\SetPartyLeaderPlayer.sql" />
+    <None Include="StoredProcedures\KickPartyPlayer.sql" />
+    <None Include="StoredProcedures\RemovePlayerFriend.sql" />
+    <None Include="StoredProcedures\GetNotificationMessageById.sql" />
+    <None Include="StoredProcedures\HideNotification.sql" />
+    <None Include="StoredProcedures\RegisterPlayerActivity.sql" />
+    <None Include="StoredProcedures\GetPlayerParty.sql" />
+    <None Include="StoredProcedures\GetPlayerFriendsList.sql" />
+    <None Include="StoredProcedures\AddGameServerOperationRequest.sql" />
+    <None Include="Tables\GameServerOperationRequest.sql" />
+    <None Include="StoredProcedures\PollGameServerOperationRequests.sql" />
+    <None Include="StoredProcedures\StopGameServer.sql" />
+    <None Include="StoredProcedures\GetGameServerInfoById.sql" />
+    <None Include="Tables\ProjectSettings.sql" />
+    <None Include="StoredProcedures\CreateOrUpdateProjectSettings.sql" />
+    <None Include="StoredProcedures\GetProjectSettings.sql" />
+    <None Include="StoredProcedures\GetActiveGameServers.sql" />
+    <None Include="Tables\PlayerScore.sql" />
+    <None Include="StoredProcedures\IncrementPlayerScore.sql" />
+    <None Include="StoredProcedures\SetPlayerName.sql" />
+    <None Include="StoredProcedures\LeaveParty.sql" />
+    <None Include="Tables\ServiceCatalogConfiguration.sql" />
+    <None Include="InitData\ServiceCatalogConfiguration.sql" />
+    <None Include="StoredProcedures\GetServiceCatalogConfiguration.sql" />
+    <None Include="Indexes\PartyPlayers_LastPolledDateTime.sql" />
+    <None Include="Tables\GameServerHost.sql" />
+    <None Include="StoredProcedures\UpdateGameServerHostInfo.sql" />
+    <None Include="Views\GameServerHostView.sql" />
+    <None Include="StoredProcedures\GetGameServerHosts.sql" />
+    <None Include="Views\GameServerView.sql" />
+    <None Include="StoredProcedures\SetProjectServiceTier.sql" />
+    <None Include="Tables\ProjectSubscription.sql" />
+    <None Include="Indexes\ProjectSubscription_SubscriptionId.sql" />
+    <None Include="StoredProcedures\SetProjectSubscription.sql" />
+    <None Include="Indexes\idx_projectsettings_extauthid.sql" />
+    <None Include="StoredProcedures\GetProjectPlayers.sql" />
+    <None Include="Indexes\idx_GameServer_Tag.sql" />
+    <None Include="InitData\NoAccountProjectSubscription.sql" />
+    <None Include="Tables\GameServerConfiguration.sql" />
+    <None Include="StoredProcedures\RegisterGameServerConfiguration.sql" />
+    <None Include="StoredProcedures\BrowseGameServers.sql" />
+    <None Include="StoredProcedures\GetGameServerStatistics.sql" />
+    <None Include="StoredProcedures\GetPlayerStatistics.sql" />
+    <None Include="StoredProcedures\GetGameServerByCode.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StoredProcedures\GetAvailableGameServerPort.sql" />
+    <None Include="StoredProcedures\GetGameServerById.sql" />
+    <None Include="StoredProcedures\SetGameServerProcessId.sql" />
+    <None Include="StoredProcedures\SetGameServerState.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StoredProcedures\GetProjectSubscription.sql" />
+  </ItemGroup>
+</Project>

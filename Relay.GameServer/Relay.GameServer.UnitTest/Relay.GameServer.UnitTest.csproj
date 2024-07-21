@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Relay.GameServer.Contracts\Relay.GameServer.Contracts.csproj" />
+    <ProjectReference Include="..\Relay.GameServer.Core\Relay.GameServer.Core.csproj" />
+    <ProjectReference Include="..\Relay.GameServer.DataModel\Relay.GameServer.DataModel.csproj" />
+    <ProjectReference Include="..\Relay.GameServer.Implementation\Relay.GameServer.Implementation.csproj" />
+  </ItemGroup>
+
+</Project>

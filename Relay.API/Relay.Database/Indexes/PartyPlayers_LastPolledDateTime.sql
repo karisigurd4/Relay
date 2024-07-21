@@ -1,0 +1,1 @@
+﻿create nonclustered index [idx_PartyPlayers_LastPolledDateTime] on [Relay].[PartyPlayers] ([LastPolledDateTime])

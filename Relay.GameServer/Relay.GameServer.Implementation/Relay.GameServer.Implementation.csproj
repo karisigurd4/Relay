@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Relay.GameServer.Contracts\Relay.GameServer.Contracts.csproj" />
+    <ProjectReference Include="..\Relay.GameServer.Core\Relay.GameServer.Core.csproj" />
+    <ProjectReference Include="..\Relay.GameServer.Repository\Relay.GameServer.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+﻿insert into Relay.ProjectSubscription (ProjectId, Active, CheckExpirationFlag) values ('3825620d-3a42-4325-9ce9-7e0341f68cbc', 1, 0)
