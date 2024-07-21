@@ -29,7 +29,7 @@ Iterates over all components attached to the same GameObject, built in as well a
 
 ### Unity prefabs
 
-Developing a multiplayer game is a lot of work. Its not only state synchronisation and races, how do you get your players *in* together?
+Developing a multiplayer game is a lot of work. Its not only state synchronisation and rpc's, how do you get your players *in* together?
 
 Relay includes UI prefabs to navigate and use all the matchmaking and player services. You can just drop it into your main menu scene.
 
