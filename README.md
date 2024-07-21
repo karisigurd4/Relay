@@ -31,17 +31,25 @@ Iterates over all components attached to the same GameObject, built in as well a
 
 **Friends list.**
 
+Associate your player clients with a unique identifier. Enabling a player identity where they have a username and data storage. Allow them to manage friends list and invite each other in-game.
+
 ![Relay game object](Documentation/Images/FriendsList.PNG)
 
 **Party system.**
+
+A party system is included enabling your players to jump into matches together.
 
 ![Relay game object](Documentation/Images/Party.png)
 
 **Notification system.**
 
+To navigate the invite options as well as information that you might want to post to their clients!
+
 ![Relay game object](Documentation/Images/NotificationsList.PNG)
 
 **Highly configurable modern matchmaking.**
+
+Press play, find a server, you're in. Configurable lobby and matchmaking system.
 
 ![Relay game object](Documentation/Images/Matchmaking.PNG)
 
