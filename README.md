@@ -33,6 +33,10 @@ Iterates over all components attached to the same GameObject, built in as well a
 
 ![Relay game object](Documentation/Images/FriendsList.PNG)
 
+**Party system.**
+
+![Relay game object](Documentation/Images/Party.png)
+
 **Notification system.**
 
 ![Relay game object](Documentation/Images/NotificationsList.PNG)
