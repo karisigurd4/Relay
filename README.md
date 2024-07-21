@@ -12,6 +12,35 @@ Well I wanted to solve that, **RELAY** is an entire **multiplayer infrastructure
 - **Matchmaking**: Supports highly configurable modern "Fall guys" style matchmaking as well as the good old conventional server browser UI.
 - **Player services**: Let your players save their character customizations, earn points, generate statistics, send friend requests and jump into matches together.
 
+### Infrastructure
+
+- API handling matchmaking and player services
+- Game server application servicing your games
+
+![Topology](Documentation/Images/SimpleServiceTopology.png)
+
+### Unity toolkit
+
+**RelayGameObject Component**
+
+Check which properties of a game object you want to distribute over the network to automatically synchronize them across clients. Also enables RPC for **ANY** method on **ANY** component attached to the same game object.
+
+![Relay game object](Documentation/Images/RelayGameObjectComponent.PNG)
+
+### Unity prefabs
+
+**Friends list.**
+
+![Relay game object](Documentation/Images/FriendsList.PNG)
+
+**Notification system.**
+
+![Relay game object](Documentation/Images/NotificationsList.PNG)
+
+**Highly configurable modern matchmaking.**
+
+![Relay game object](Documentation/Images/Matchmaking.PNG)
+
 ## Acknowledgements
 
 This project makes use of the following open-source projects:
