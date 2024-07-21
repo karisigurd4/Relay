@@ -23,7 +23,7 @@ Well I wanted to solve that, **RELAY** is an entire **multiplayer infrastructure
 
 **RelayGameObject Component**
 
-Check which properties of a game object you want to distribute over the network to automatically synchronize them across clients. Also enables RPC for **ANY** method on **ANY** component attached to the same game object.
+Iterates over all components attached to the same GameObject, built in as well as custom scripts and exposes check boxes for all public properties. Check which properties of a game object you want to distribute over the network to automatically synchronize them across clients. Also enables RPC for **ANY** method on **ANY** component attached to the same game object.
 
 ![Relay game object](Documentation/Images/RelayGameObjectComponent.PNG)
 
